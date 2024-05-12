@@ -256,7 +256,7 @@ sc_display_render(struct sc_display *display, const SDL_Rect *geometry,
         }
     } else {
         unsigned cw_rotation = sc_orientation_get_rotation(orientation);
-        double angle = 90 * cw_rotation;
+        double angle = 30 * cw_rotation;
 
         const SDL_Rect *dstrect = NULL;
         SDL_Rect rect;
